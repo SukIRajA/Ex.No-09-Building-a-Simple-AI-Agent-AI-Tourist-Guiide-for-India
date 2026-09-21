@@ -36,7 +36,11 @@ The table below summarises the destinations available to the agent:
 ### Step 8: Test the Agent with Sample Tourist Profiles
 ●	Three realistic tourist profiles are used to test the agent across different interests and budgets: a budget heritage traveller, a mid-budget adventure seeker, and a family looking for a beach holiday.
 <img width="616" height="241" alt="image" src="https://github.com/user-attachments/assets/17613086-5b61-44f1-8d85-cbbae85cfc4b" />
+
+
 ### Output
+
+
 Agent Output – Session 1 (Budget Heritage Traveller)
 ●	The agent correctly perceives Ananya's preferences, reasons that Taj Mahal and Jaipur are the matching heritage destinations within budget, and plans a 6-day itinerary split evenly between them.
 <img width="677" height="373" alt="image" src="https://github.com/user-attachments/assets/c92635bd-dffc-470d-ad75-2b8f806e3c70" />
@@ -45,6 +49,10 @@ Agent Output – Sessions 2 and 3 (Adventure Seeker and Beach Holiday)
 ●	For the beach-holiday family, the agent alternates between Goa and the Andaman Islands to fill all 7 requested days, and the total estimated cost is calculated automatically for each plan.
 <img width="620" height="532" alt="image" src="https://github.com/user-attachments/assets/d0d7a414-912d-4768-8b4f-933a1037a4c6" />
 Fig 2: Console output for the adventure-seeker and beach-holiday profiles, each with a complete itinerary and total cost.
+
+
 ## Conclusion
+
+
 Thus, a simple goal-based AI Tourist Agent for India was successfully designed, implemented and tested using Python. The agent follows the classic Perceive → Reason → Plan → Act cycle: it perceives a tourist's goal (interest, duration and budget), reasons over a knowledge base of Indian destinations to find matching options, plans a day-wise itinerary, and acts by presenting a complete, costed trip recommendation. This experiment demonstrates the core building blocks of autonomous agents — environment knowledge, perception, reasoning/planning and action — on which more advanced AI agents (using machine learning, real-time APIs and large language models) are built.
 
